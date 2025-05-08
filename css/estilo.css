@@ -18,7 +18,7 @@ ul{
 }
 
 #container{
-    background: #ede9cc;
+    background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
@@ -92,6 +92,11 @@ a.reserva{
     float: right;
 }
 
+a.reserva:hover{
+    background: #fff5b0;
+    color: #a29750;
+}
+
 /* Barra de navegação vertical */
 #menu{
     margin-top: 15px;
@@ -118,3 +123,74 @@ ul#navegacao a:hover{
     height: 164px;
     float: right;
 }
+
+/* Área de conteúdos */
+#area-principal{
+    float: left;
+    width: 50%;
+    background: url(../imagens/bg-area-principal.png) top left repeat-x;
+    padding: 20px 0px;
+}
+
+#area-lateral{
+    float: right;
+    width: 50%;
+    background: url(../imagens/bg-area-lateral.png) top left repeat-x;
+    padding: 20px 0px;
+}
+
+.conteudo{
+    margin: 0 auto;
+    width: 90%;
+}
+
+#rodape{
+    clear: both;
+    padding: 16px;
+    background: #fff url(../imagens/bg-rodape.png) repeat-x top;
+    color: #7d7640;
+}
+
+/* Formatação de textos */
+h2{
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+    color: #7d7640;
+}
+
+p{
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+/* Area lateral */
+#lista-beneficios li{
+    border-bottom: 1px solid #f3efcb;
+    height: 6em;
+    padding: 8px;
+}
+
+#lista-beneficios li a img{
+    float: left;
+    margin-right: 10px;
+}
+
+#lista-beneficios li a p{
+    color: #000;
+    font-size: 0.8em;
+}
+
+#lista-beneficios li a h3{
+    color: #615b2d;
+    font-size: 1em;
+    padding: 5px 0;
+    background: url(../imagens/ornamento.png) no-repeat right;
+}
+
+#lista-beneficios li:hover{
+    background: #f6f3d6;
+    cursor: pointer;
+}
+
+
